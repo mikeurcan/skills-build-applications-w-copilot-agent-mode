@@ -1,0 +1,106 @@
+
+.App {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  color: #22223b;
+  text-align: center;
+}
+
+
+.octofit-logo {
+  height: 48px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+
+
+
+.App-header {
+  background: #3a86ff;
+  color: #fff;
+  padding: 2rem 0 1rem 0;
+  margin-bottom: 2rem;
+  border-radius: 0 0 1rem 1rem;
+}
+
+
+.App-link, .navbar a, .nav-link, .navbar-brand {
+  color: #3a86ff !important;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.App-link:hover, .navbar a:hover, .nav-link:hover, .navbar-brand:hover {
+  color: #ff006e !important;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%) !important;
+  border-radius: 0.5rem;
+}
+.navbar-brand {
+  color: #fff !important;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.navbar-nav .nav-link.active {
+  color: #ffbe0b !important;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #3a86ff;
+  font-weight: 700;
+}
+
+.btn, .btn-primary {
+  background: #3a86ff;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  transition: background 0.2s;
+}
+.btn:hover, .btn-primary:hover {
+  background: #ff006e;
+  color: #fff;
+}
+
+.table {
+  background: #fff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(58,134,255,0.08);
+}
+.table th {
+  background: #3a86ff;
+  color: #fff;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background: #e0eafc;
+}
+.table-striped > tbody > tr:nth-of-type(even) {
+  background: #f7f7ff;
+}
+
+.card {
+  box-shadow: 0 2px 8px rgba(58,134,255,0.08);
+  border-radius: 1rem;
+}
+
+.modal-content {
+  border-radius: 1rem;
+}
+
+.form-control:focus {
+  border-color: #3a86ff;
+  box-shadow: 0 0 0 0.2rem rgba(58,134,255,0.15);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
