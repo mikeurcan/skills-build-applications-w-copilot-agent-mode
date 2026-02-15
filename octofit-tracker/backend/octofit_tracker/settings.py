@@ -27,6 +27,7 @@ DEBUG = True
 
 
 # Allow all hosts
+import os
 ALLOWED_HOSTS = ['*']
 
 
@@ -43,7 +44,11 @@ INSTALLED_APPS = [
     'octofit_tracker',
     'rest_framework',
     'djongo',
-    'corsheaders',
+# Allow localhost and Codespace URL
+#CODESPACE_NAME = os.environ.get('CODESPACE_NAME')
+#ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+#if CODESPACE_NAME:
+#    ALLOWED_HOSTS.append(f'{CODESPACE_NAME}-8000.app.github.dev')
 ]
 
 
